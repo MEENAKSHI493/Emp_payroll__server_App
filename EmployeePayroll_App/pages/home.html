@@ -11,19 +11,6 @@
     <link rel="stylesheet" href="../css/Home_Style.css">
 </head>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Payroll Form</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/Home_Style.css">
-</head>
-
 <body>
     <header class="header-content header">
         <div class="logo-content">
@@ -42,6 +29,38 @@
             </div>
             <a href="../pages/Payroll_Form.html" class="add-button">
                 <img src="../assets/icons/add-24px.svg" alt="">Add User</a>
+        </div>
+        <!-- uc-3 -->
+        <div class="table-main">
+            <table id="table" class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../assets/profile-images/Ellipse -1.png" alt="" class="profile">
+                    </td>
+                    <td>Meenakshi</td>
+                    <td>female</td>
+                    <td>Technical Engineer</td>
+                    <td>
+                        <div class="dept-label">Other</div>
+                        <div class="dept-label">Finance</div>
+                    </td>
+                    <td>4000000</td>
+                    <td>31 November 2020</td>
+                    <td>
+                        <img src="../assets/icons/delete-black-18dp.svg" alt="delete" id="1" onclick="remove(this)">
+                        <img src="../assets/icons/create-black-18dp.svg" alt="update" id="1" onclick="update(this)">
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
